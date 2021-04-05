@@ -1,0 +1,242 @@
+!SESSION 2021-04-05 12:46:57.243 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_281
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2021-04-05 12:46:59.104
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2021-04-05 12:46:59.116
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:47:04.892
+!MESSAGE 2021-04-05 12:47:04,886 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Users\tjorg\Desktop\TALEND ESB\Studio\configuration\studio.keys
+
+
+!ENTRY org.talend.platform.logging 2 0 2021-04-05 12:48:23.052
+!MESSAGE 2021-04-05 12:48:23,050 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:48:43.773
+!MESSAGE 2021-04-05 12:48:43,773 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:48:43.785
+!MESSAGE 2021-04-05 12:48:43,785 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:48:43.797
+!MESSAGE 2021-04-05 12:48:43,797 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:48:43.805
+!MESSAGE 2021-04-05 12:48:43,804 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:48:46.985
+!MESSAGE 2021-04-05 12:48:46,984 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:48:46.996
+!MESSAGE 2021-04-05 12:48:46,995 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_BEANS/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:48:47.006
+!MESSAGE 2021-04-05 12:48:47,006 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:48:47.020
+!MESSAGE 2021-04-05 12:48:47,019 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:48:55.412
+!MESSAGE 2021-04-05 12:48:55,407 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:48:59.430
+!MESSAGE 2021-04-05 12:48:59,430 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\tjorg\Desktop\TALEND_GIT\TALEND\CREATING_TEST_DATA\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:48:59.441
+!MESSAGE 2021-04-05 12:48:59,441 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Users\tjorg\Desktop\TALEND ESB\Studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:49:07.590
+!MESSAGE 2021-04-05 12:49:07,589 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:49:07.924
+!MESSAGE 2021-04-05 12:49:07,924 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\tjorg\Desktop\TALEND_GIT\TALEND\CREATING_TEST_DATA\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:49:07.937
+!MESSAGE 2021-04-05 12:49:07,936 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Users\tjorg\Desktop\TALEND ESB\Studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:49:16.028
+!MESSAGE 2021-04-05 12:49:16,027 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - tjorge493493@gmail.com logged on CREATING_TEST_DATA
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:49:18.953
+!MESSAGE 2021-04-05 12:49:18,952 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:51:40.901
+!MESSAGE 2021-04-05 12:51:40,900 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:51:41.150
+!MESSAGE 2021-04-05 12:51:41,149 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_ONBOARDINGDEMOJOB_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:51:41.160
+!MESSAGE 2021-04-05 12:51:41,159 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_ONBOARDINGDEMOJOB_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:51:41.223
+!MESSAGE 2021-04-05 12:51:41,222 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_ONBOARDINGDEMOJOB_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:51:41.233
+!MESSAGE 2021-04-05 12:51:41,232 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_ONBOARDINGDEMOJOB_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:52:20.942
+!MESSAGE 2021-04-05 12:52:20,941 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:52:21.174
+!MESSAGE 2021-04-05 12:52:21,174 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:52:21.749
+!MESSAGE 2021-04-05 12:52:21,747 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_ONBOARDINGDEMOJOB_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:52:21.759
+!MESSAGE 2021-04-05 12:52:21,758 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_ONBOARDINGDEMOJOB_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:52:21.772
+!MESSAGE 2021-04-05 12:52:21,771 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_ONBOARDINGDEMOJOB_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:52:21.781
+!MESSAGE 2021-04-05 12:52:21,780 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_ONBOARDINGDEMOJOB_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:52:21.986
+!MESSAGE 2021-04-05 12:52:21,985 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 1 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:52:22.393
+!MESSAGE 2021-04-05 12:52:22,375 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:52:22.868
+!MESSAGE 2021-04-05 12:52:22,867 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/CREATING_TEST_DATA/poms/jobs/process/demo/onboardingdemojob_0.1/target/classpath.jar; creating_test_data.onboardingdemojob_0_1.OnBoardingDemoJob --context=Default --stat_port=3429 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:52:52.880
+!MESSAGE 2021-04-05 12:52:52,879 INFO  org.talend.commons.exception.CommonExceptionHandler  - You do not have enough right for this action
+
+!STACK 0
+org.talend.commons.exception.BusinessException: You do not have enough right for this action
+	at org.talend.core.repository.model.ProxyRepositoryFactory.checkAvailability(ProxyRepositoryFactory.java:1050)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.deleteObjectLogical(ProxyRepositoryFactory.java:748)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.deleteObjectLogical(ProxyRepositoryFactory.java:739)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.deleteObjectLogical(ProxyRepositoryFactory.java:733)
+	at org.talend.core.repository.ui.actions.DeleteAction.deleteRepositoryNode(DeleteAction.java:713)
+	at org.talend.core.repository.ui.actions.DeleteAction.deleteFolder(DeleteAction.java:483)
+	at org.talend.core.repository.ui.actions.DeleteAction.access$4(DeleteAction.java:465)
+	at org.talend.core.repository.ui.actions.DeleteAction$1.run(DeleteAction.java:338)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.talend.core.repository.ui.actions.DeleteAction$2.run(DeleteAction.java:391)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:474)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:240)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:966)
+	at org.talend.core.repository.ui.actions.DeleteAction.doRun(DeleteAction.java:400)
+	at org.talend.repository.ui.actions.AContextualAction$2.run(AContextualAction.java:673)
+	at org.talend.repository.RepositoryWorkUnit.executeRun(RepositoryWorkUnit.java:99)
+	at org.talend.core.repository.model.AbstractRepositoryFactory.executeRepositoryWorkUnit(AbstractRepositoryFactory.java:258)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.executeRepositoryWorkUnit(LocalRepositoryFactory.java:3553)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.executeRepositoryWorkUnit(ProxyRepositoryFactory.java:2412)
+	at org.talend.repository.ui.actions.AContextualAction.run(AContextualAction.java:686)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:53:12.946
+!MESSAGE 2021-04-05 12:53:12,946 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:53:13.085
+!MESSAGE 2021-04-05 12:53:13,084 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:53:13.096
+!MESSAGE 2021-04-05 12:53:13,095 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:53:13.120
+!MESSAGE 2021-04-05 12:53:13,119 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:53:13.131
+!MESSAGE 2021-04-05 12:53:13,130 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_0.1/src/test/resources
+
