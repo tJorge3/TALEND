@@ -744,3 +744,23 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.la
 !ENTRY org.talend.platform.logging 1 0 2021-04-05 13:31:20.671
 !MESSAGE 2021-04-05 13:31:20,671 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/DATABASE/poms/jobs/process/tDBInput/tdbinput_component_0.1/target/classpath.jar; database.tdbinput_component_0_1.tDBInput_component --context=Default --stat_port=3859 %*
 
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:39:05.859
+!MESSAGE 2021-04-05 13:39:05,858 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/DATABASE_ROUTINES: org.example.database.code:routines:7.3.1 with classifier  to /DATABASE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:39:06.046
+!MESSAGE 2021-04-05 13:39:06,045 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /DATABASE_TDBCONNECTION_COMPONENT_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:39:06.057
+!MESSAGE 2021-04-05 13:39:06,056 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /DATABASE_TDBCONNECTION_COMPONENT_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:39:06.096
+!MESSAGE 2021-04-05 13:39:06,096 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /DATABASE_TDBCONNECTION_COMPONENT_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:39:06.108
+!MESSAGE 2021-04-05 13:39:06,107 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /DATABASE_TDBCONNECTION_COMPONENT_0.1/src/test/resources
+

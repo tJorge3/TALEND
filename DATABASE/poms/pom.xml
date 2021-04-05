@@ -12,6 +12,7 @@
     <module>code/routines</module>
     <module>code/beans</module>
     <module>jobs/process/tDBInput/tdbinput_component_0.1</module>
+    <module>jobs/process/tDBConnection/tdbconnection_component_0.1</module>
   </modules>
   <properties>
     <talend.project.name>DATABASE</talend.project.name>
