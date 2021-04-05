@@ -404,3 +404,111 @@ org.talend.commons.exception.BusinessException: You do not have enough right for
 !ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:48.517
 !MESSAGE 2021-04-05 13:00:48,516 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/CREATING_TEST_DATA/poms/jobs/process/tFixedFlowInput/tfixedflowinput_component_0.1/target/classpath.jar; creating_test_data.tfixedflowinput_component_0_1.tFixedFlowInput_component --context=Default --stat_port=4058 %*
 
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:23.400
+!MESSAGE 2021-04-05 13:06:23,399 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:23.533
+!MESSAGE 2021-04-05 13:06:23,532 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TROWGENERATOR_COMPONENT_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:23.540
+!MESSAGE 2021-04-05 13:06:23,539 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TROWGENERATOR_COMPONENT_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:23.559
+!MESSAGE 2021-04-05 13:06:23,559 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TROWGENERATOR_COMPONENT_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:23.566
+!MESSAGE 2021-04-05 13:06:23,565 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TROWGENERATOR_COMPONENT_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:53.314
+!MESSAGE 2021-04-05 13:06:53,314 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:53.500
+!MESSAGE 2021-04-05 13:06:53,500 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:53.715
+!MESSAGE 2021-04-05 13:06:53,714 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TROWGENERATOR_COMPONENT_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:53.725
+!MESSAGE 2021-04-05 13:06:53,725 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TROWGENERATOR_COMPONENT_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:53.737
+!MESSAGE 2021-04-05 13:06:53,736 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TROWGENERATOR_COMPONENT_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:53.748
+!MESSAGE 2021-04-05 13:06:53,747 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TROWGENERATOR_COMPONENT_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:53.890
+!MESSAGE 2021-04-05 13:06:53,889 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:06:54.247
+!MESSAGE 2021-04-05 13:06:54,246 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2021-04-05 13:06:54.353
+!MESSAGE 2021-04-05 13:06:54,351 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "tRowGenerator_component" has a compile errors, please fix and export again.
+Error Line: 534
+Detail Message: This method must return a result of type Integer
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "tRowGenerator_component" has a compile errors, please fix and export again.
+Error Line: 534
+Detail Message: This method must return a result of type Integer
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:615)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2068)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:601)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:474)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:240)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:966)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:548)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1448)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:700)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:63)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1$1.run(JobLaunchConfigurationDelegate.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
