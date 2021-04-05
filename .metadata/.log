@@ -240,3 +240,167 @@ org.talend.commons.exception.BusinessException: You do not have enough right for
 !ENTRY org.talend.platform.logging 1 0 2021-04-05 12:53:13.131
 !MESSAGE 2021-04-05 12:53:13,130 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_0.1/src/test/resources
 
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:57:04.350
+!MESSAGE 2021-04-05 12:57:04,349 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:57:04.536
+!MESSAGE 2021-04-05 12:57:04,535 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:57:04.546
+!MESSAGE 2021-04-05 12:57:04,545 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:57:04.581
+!MESSAGE 2021-04-05 12:57:04,580 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:57:04.591
+!MESSAGE 2021-04-05 12:57:04,590 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:59:50.605
+!MESSAGE 2021-04-05 12:59:50,605 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:59:50.866
+!MESSAGE 2021-04-05 12:59:50,865 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:59:51.256
+!MESSAGE 2021-04-05 12:59:51,256 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:59:51.268
+!MESSAGE 2021-04-05 12:59:51,267 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:59:51.282
+!MESSAGE 2021-04-05 12:59:51,281 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:59:51.292
+!MESSAGE 2021-04-05 12:59:51,291 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:59:51.450
+!MESSAGE 2021-04-05 12:59:51,450 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:59:51.799
+!MESSAGE 2021-04-05 12:59:51,798 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 12:59:52.112
+!MESSAGE 2021-04-05 12:59:52,111 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/CREATING_TEST_DATA/poms/jobs/process/tFixedFlowInput/tfixedflowinput_component_0.1/target/classpath.jar; creating_test_data.tfixedflowinput_component_0_1.tFixedFlowInput_component --context=Default --stat_port=3584 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:10.675
+!MESSAGE 2021-04-05 13:00:10,675 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:10.847
+!MESSAGE 2021-04-05 13:00:10,846 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:11.075
+!MESSAGE 2021-04-05 13:00:11,074 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:11.086
+!MESSAGE 2021-04-05 13:00:11,085 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:11.098
+!MESSAGE 2021-04-05 13:00:11,098 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:11.108
+!MESSAGE 2021-04-05 13:00:11,107 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:11.228
+!MESSAGE 2021-04-05 13:00:11,228 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:11.499
+!MESSAGE 2021-04-05 13:00:11,499 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:11.735
+!MESSAGE 2021-04-05 13:00:11,734 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/CREATING_TEST_DATA/poms/jobs/process/tFixedFlowInput/tfixedflowinput_component_0.1/target/classpath.jar; creating_test_data.tfixedflowinput_component_0_1.tFixedFlowInput_component --context=Default --stat_port=3908 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:30.907
+!MESSAGE 2021-04-05 13:00:30,907 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:31.075
+!MESSAGE 2021-04-05 13:00:31,074 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:31.279
+!MESSAGE 2021-04-05 13:00:31,278 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:31.289
+!MESSAGE 2021-04-05 13:00:31,288 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:31.301
+!MESSAGE 2021-04-05 13:00:31,300 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:31.311
+!MESSAGE 2021-04-05 13:00:31,310 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:31.446
+!MESSAGE 2021-04-05 13:00:31,446 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:31.797
+!MESSAGE 2021-04-05 13:00:31,797 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:32.001
+!MESSAGE 2021-04-05 13:00:32,001 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/CREATING_TEST_DATA/poms/jobs/process/tFixedFlowInput/tfixedflowinput_component_0.1/target/classpath.jar; creating_test_data.tfixedflowinput_component_0_1.tFixedFlowInput_component --context=Default --stat_port=3526 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:47.502
+!MESSAGE 2021-04-05 13:00:47,501 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:47.737
+!MESSAGE 2021-04-05 13:00:47,736 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:47.930
+!MESSAGE 2021-04-05 13:00:47,930 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:47.940
+!MESSAGE 2021-04-05 13:00:47,940 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:47.952
+!MESSAGE 2021-04-05 13:00:47,952 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:47.963
+!MESSAGE 2021-04-05 13:00:47,962 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREATING_TEST_DATA_TFIXEDFLOWINPUT_COMPONENT_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:48.079
+!MESSAGE 2021-04-05 13:00:48,078 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:48.326
+!MESSAGE 2021-04-05 13:00:48,325 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREATING_TEST_DATA_ROUTINES: org.example.creating_test_data.code:routines:7.3.1 with classifier  to /CREATING_TEST_DATA_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-05 13:00:48.517
+!MESSAGE 2021-04-05 13:00:48,516 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/CREATING_TEST_DATA/poms/jobs/process/tFixedFlowInput/tfixedflowinput_component_0.1/target/classpath.jar; creating_test_data.tfixedflowinput_component_0_1.tFixedFlowInput_component --context=Default --stat_port=4058 %*
+

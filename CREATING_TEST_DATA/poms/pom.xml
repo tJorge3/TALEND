@@ -13,6 +13,7 @@
     <module>code/beans</module>
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
     <module>jobs/process/tfixedflowinput_0.1</module>
+    <module>jobs/process/tFixedFlowInput/tfixedflowinput_component_0.1</module>
   </modules>
   <properties>
     <talend.project.name>CREATING_TEST_DATA</talend.project.name>
