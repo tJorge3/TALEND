@@ -5,10 +5,6 @@
 <item elementID="=CREATING_TEST_DATA_ROUTINES/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=CREATING_TEST_DATA_ROUTINES/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=CREATING_TEST_DATA_ROUTINES/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=CREATING_TEST_DATA_BEANS/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=CREATING_TEST_DATA_BEANS/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=CREATING_TEST_DATA_BEANS/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=CREATING_TEST_DATA_BEANS/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=CREATING_TEST_DATA_ONBOARDINGDEMOJOB_0.1/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=CREATING_TEST_DATA_ONBOARDINGDEMOJOB_0.1/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=CREATING_TEST_DATA_ONBOARDINGDEMOJOB_0.1/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>

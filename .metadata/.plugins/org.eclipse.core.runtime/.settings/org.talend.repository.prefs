@@ -1,0 +1,2 @@
+TOS_Jobs_Records={"CREATING_TEST_DATA"\:{"projects"\:{"PROCESS"\:{"details"\:{"components"\:[{"component_name"\:"tFixedFlowInput","count"\:3},{"component_name"\:"tLogRow","count"\:4},{"component_name"\:"tRowGenerator","count"\:1}],"nb.components"\:8,"nb.contextVars"\:0},"nb"\:2}},"type"\:"local"}}
+eclipse.preferences.version=1
