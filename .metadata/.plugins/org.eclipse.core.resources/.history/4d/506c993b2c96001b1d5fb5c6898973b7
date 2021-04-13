@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_O4HssJYsEeuYOO0KjEPbZA" name="BD_Local" id="_qLRxUJYrEeuYOO0KjEPbZA" label="BD_Local" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/Sakila?useSSL=false&amp;noDatetimeStringSync=true&amp;serverTimezone=America/Sao_Paulo" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="enc:system.encryption.key.v1:QB+TFQuqv4EOjPe99wUfysnnjI0375axP5SEtB9fkBt19IQV0FaO4WsIFg==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="Sakila" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="useSSL=false&amp;noDatetimeStringSync=true&amp;serverTimezone=America/Sao_Paulo" StandardSQL="true" SQLMode="false" UiSchema="">
-  <taggedValue xmi:id="_O4I60JYsEeuYOO0KjEPbZA" tag="Is Conn Need Reload" value="true"/>
-  <parameters xmi:id="_O4I60ZYsEeuYOO0KjEPbZA" key="CONN_PARA_KEY_USERNAME" value="root"/>
-</TalendMetadata:DatabaseConnection>

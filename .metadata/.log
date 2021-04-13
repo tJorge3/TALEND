@@ -764,3 +764,698 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.la
 !ENTRY org.talend.platform.logging 1 0 2021-04-05 13:39:06.108
 !MESSAGE 2021-04-05 13:39:06,107 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /DATABASE_TDBCONNECTION_COMPONENT_0.1/src/test/resources
 
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-04-05 14:55:22.017
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2021-04-12 10:41:41.392 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_281
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2021-04-12 10:41:44.954
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2021-04-12 10:41:44.965
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:42:27.755
+!MESSAGE 2021-04-12 10:42:27,748 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Users\tjorg\Desktop\TALEND ESB\Studio\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-04-12 10:42:28.837
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:42:38.045
+!MESSAGE 2021-04-12 10:42:38,044 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2021-04-12 10:44:30.436
+!MESSAGE 2021-04-12 10:44:30,434 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:44:47.619
+!MESSAGE 2021-04-12 10:44:47,618 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:44:47.633
+!MESSAGE 2021-04-12 10:44:47,632 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:44:47.645
+!MESSAGE 2021-04-12 10:44:47,644 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:44:47.653
+!MESSAGE 2021-04-12 10:44:47,652 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:44:52.029
+!MESSAGE 2021-04-12 10:44:52,029 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:44:52.041
+!MESSAGE 2021-04-12 10:44:52,040 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_BEANS/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:44:52.053
+!MESSAGE 2021-04-12 10:44:52,052 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:44:52.064
+!MESSAGE 2021-04-12 10:44:52,063 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:44:54.909
+!MESSAGE 2021-04-12 10:44:54,908 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\tjorg\Desktop\TALEND_GIT\TALEND\SEND_EMAIL\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:44:54.921
+!MESSAGE 2021-04-12 10:44:54,920 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Users\tjorg\Desktop\TALEND ESB\Studio\configuration\maven_user_settings.xml" install -llr -N -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:45:18.516
+!MESSAGE 2021-04-12 10:45:18,515 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:45:23.939
+!MESSAGE 2021-04-12 10:45:23,938 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\tjorg\Desktop\TALEND_GIT\TALEND\SEND_EMAIL\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:45:23.949
+!MESSAGE 2021-04-12 10:45:23,949 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Users\tjorg\Desktop\TALEND ESB\Studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:45:34.401
+!MESSAGE 2021-04-12 10:45:34,401 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:45:34.904
+!MESSAGE 2021-04-12 10:45:34,903 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\tjorg\Desktop\TALEND_GIT\TALEND\SEND_EMAIL\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:45:34.916
+!MESSAGE 2021-04-12 10:45:34,915 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Users\tjorg\Desktop\TALEND ESB\Studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:45:41.662
+!MESSAGE 2021-04-12 10:45:41,661 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - tjorge493493@gmail.com logged on SEND_EMAIL
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:45:44.014
+!MESSAGE 2021-04-12 10:45:44,014 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:47:48.008
+!MESSAGE 2021-04-12 10:47:48,007 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:47:48.342
+!MESSAGE 2021-04-12 10:47:48,340 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:47:48.353
+!MESSAGE 2021-04-12 10:47:48,352 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:47:48.393
+!MESSAGE 2021-04-12 10:47:48,392 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-12 10:47:48.405
+!MESSAGE 2021-04-12 10:47:48,404 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-04-12 11:16:12.583
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2021-04-13 14:46:22.610 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_281
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2021-04-13 14:46:39.406
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2021-04-13 14:46:39.413
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:47:45.228
+!MESSAGE 2021-04-13 14:47:45,224 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Users\tjorg\Desktop\TALEND ESB\Studio\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-04-13 14:47:45.915
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:47:55.364
+!MESSAGE 2021-04-13 14:47:55,363 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2021-04-13 14:48:14.727
+!MESSAGE 2021-04-13 14:48:14,726 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:28.883
+!MESSAGE 2021-04-13 14:48:28,882 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:28.884
+!MESSAGE 2021-04-13 14:48:28,884 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /SEND_EMAIL_ROUTINES/src/main/java overlaps with sources folder /SEND_EMAIL_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:28.900
+!MESSAGE 2021-04-13 14:48:28,900 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:28.901
+!MESSAGE 2021-04-13 14:48:28,901 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:31.762
+!MESSAGE 2021-04-13 14:48:31,762 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:32.744
+!MESSAGE 2021-04-13 14:48:32,744 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:32.745
+!MESSAGE 2021-04-13 14:48:32,745 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /SEND_EMAIL_BEANS/src/main/java overlaps with sources folder /SEND_EMAIL_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:32.762
+!MESSAGE 2021-04-13 14:48:32,761 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:32.763
+!MESSAGE 2021-04-13 14:48:32,762 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:36.332
+!MESSAGE 2021-04-13 14:48:36,331 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:36.862
+!MESSAGE 2021-04-13 14:48:36,861 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\tjorg\Desktop\TALEND_GIT\TALEND\SEND_EMAIL\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:36.864
+!MESSAGE 2021-04-13 14:48:36,863 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Users\tjorg\Desktop\TALEND ESB\Studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:48.150
+!MESSAGE 2021-04-13 14:48:48,149 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:48.345
+!MESSAGE 2021-04-13 14:48:48,344 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\tjorg\Desktop\TALEND_GIT\TALEND\SEND_EMAIL\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:48.346
+!MESSAGE 2021-04-13 14:48:48,345 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Users\tjorg\Desktop\TALEND ESB\Studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:53.181
+!MESSAGE 2021-04-13 14:48:53,179 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - tjorge493493@gmail.com logged on SEND_EMAIL
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 14:48:55.481
+!MESSAGE 2021-04-13 14:48:55,481 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:25:40.516
+!MESSAGE 2021-04-13 15:25:40,514 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:25:41.088
+!MESSAGE 2021-04-13 15:25:41,086 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:25:41.090
+!MESSAGE 2021-04-13 15:25:41,089 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:25:41.093
+!MESSAGE 2021-04-13 15:25:41,092 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:25:41.096
+!MESSAGE 2021-04-13 15:25:41,094 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:29:59.235
+!MESSAGE 2021-04-13 15:29:59,235 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:29:59.380
+!MESSAGE 2021-04-13 15:29:59,379 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:29:59.629
+!MESSAGE 2021-04-13 15:29:59,627 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:29:59.629
+!MESSAGE 2021-04-13 15:29:59,629 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:29:59.633
+!MESSAGE 2021-04-13 15:29:59,632 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:29:59.634
+!MESSAGE 2021-04-13 15:29:59,633 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:29:59.817
+!MESSAGE 2021-04-13 15:29:59,816 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:30:00.068
+!MESSAGE 2021-04-13 15:30:00,067 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:30:00.964
+!MESSAGE 2021-04-13 15:30:00,963 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/SEND_EMAIL/poms/jobs/process/tsendemail_0.1/target/classpath.jar; send_email.tsendemail_0_1.tSendEmail --context=Default --stat_port=3378 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:30:25.902
+!MESSAGE 2021-04-13 15:30:25,901 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:30:26.088
+!MESSAGE 2021-04-13 15:30:26,087 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:30:26.277
+!MESSAGE 2021-04-13 15:30:26,276 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:30:26.278
+!MESSAGE 2021-04-13 15:30:26,278 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:30:26.281
+!MESSAGE 2021-04-13 15:30:26,281 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:30:26.282
+!MESSAGE 2021-04-13 15:30:26,282 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:30:26.408
+!MESSAGE 2021-04-13 15:30:26,407 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:30:26.687
+!MESSAGE 2021-04-13 15:30:26,686 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:30:26.997
+!MESSAGE 2021-04-13 15:30:26,996 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/SEND_EMAIL/poms/jobs/process/tsendemail_0.1/target/classpath.jar; send_email.tsendemail_0_1.tSendEmail --context=Default --stat_port=3977 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:32:07.550
+!MESSAGE 2021-04-13 15:32:07,549 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:32:07.787
+!MESSAGE 2021-04-13 15:32:07,786 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:32:08.008
+!MESSAGE 2021-04-13 15:32:08,008 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:32:08.011
+!MESSAGE 2021-04-13 15:32:08,010 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:32:08.018
+!MESSAGE 2021-04-13 15:32:08,015 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:32:08.019
+!MESSAGE 2021-04-13 15:32:08,019 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:32:08.150
+!MESSAGE 2021-04-13 15:32:08,150 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:32:08.382
+!MESSAGE 2021-04-13 15:32:08,381 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:32:08.554
+!MESSAGE 2021-04-13 15:32:08,553 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/SEND_EMAIL/poms/jobs/process/tsendemail_0.1/target/classpath.jar; send_email.tsendemail_0_1.tSendEmail --context=Default --stat_port=3939 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:18.807
+!MESSAGE 2021-04-13 15:33:18,807 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:18.974
+!MESSAGE 2021-04-13 15:33:18,973 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:19.190
+!MESSAGE 2021-04-13 15:33:19,188 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:19.191
+!MESSAGE 2021-04-13 15:33:19,190 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:19.194
+!MESSAGE 2021-04-13 15:33:19,193 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:19.195
+!MESSAGE 2021-04-13 15:33:19,194 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:19.311
+!MESSAGE 2021-04-13 15:33:19,310 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:19.502
+!MESSAGE 2021-04-13 15:33:19,501 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:37.954
+!MESSAGE 2021-04-13 15:33:37,954 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:38.078
+!MESSAGE 2021-04-13 15:33:38,077 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:38.398
+!MESSAGE 2021-04-13 15:33:38,398 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:38.399
+!MESSAGE 2021-04-13 15:33:38,399 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:38.403
+!MESSAGE 2021-04-13 15:33:38,402 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:38.405
+!MESSAGE 2021-04-13 15:33:38,404 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:38.568
+!MESSAGE 2021-04-13 15:33:38,567 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:33:38.815
+!MESSAGE 2021-04-13 15:33:38,815 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2021-04-13 15:33:38.849
+!MESSAGE 2021-04-13 15:33:38,847 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "tSendEmail" has a compile errors, please fix and export again.
+Error Line: 347
+Detail Message: Type mismatch: cannot convert from int to String
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "tSendEmail" has a compile errors, please fix and export again.
+Error Line: 347
+Detail Message: Type mismatch: cannot convert from int to String
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:358)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:539)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:317)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:955)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:615)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2068)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:601)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:474)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:240)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:966)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:548)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1448)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:700)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:63)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1$1.run(JobLaunchConfigurationDelegate.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:36:55.812
+!MESSAGE 2021-04-13 15:36:55,811 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:36:56.016
+!MESSAGE 2021-04-13 15:36:56,015 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:36:56.232
+!MESSAGE 2021-04-13 15:36:56,230 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:36:56.234
+!MESSAGE 2021-04-13 15:36:56,232 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:36:56.260
+!MESSAGE 2021-04-13 15:36:56,260 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:36:56.262
+!MESSAGE 2021-04-13 15:36:56,261 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:36:56.412
+!MESSAGE 2021-04-13 15:36:56,411 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:36:56.708
+!MESSAGE 2021-04-13 15:36:56,707 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:36:56.899
+!MESSAGE 2021-04-13 15:36:56,898 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/SEND_EMAIL/poms/jobs/process/tsendemail_0.1/target/classpath.jar; send_email.tsendemail_0_1.tSendEmail --context=Default --stat_port=3492 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:37:39.296
+!MESSAGE 2021-04-13 15:37:39,296 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:37:39.443
+!MESSAGE 2021-04-13 15:37:39,442 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:37:39.613
+!MESSAGE 2021-04-13 15:37:39,613 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:37:39.614
+!MESSAGE 2021-04-13 15:37:39,614 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:37:39.617
+!MESSAGE 2021-04-13 15:37:39,616 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:37:39.618
+!MESSAGE 2021-04-13 15:37:39,617 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:37:39.715
+!MESSAGE 2021-04-13 15:37:39,714 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:37:39.931
+!MESSAGE 2021-04-13 15:37:39,930 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:37:40.123
+!MESSAGE 2021-04-13 15:37:40,122 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/SEND_EMAIL/poms/jobs/process/tsendemail_0.1/target/classpath.jar; send_email.tsendemail_0_1.tSendEmail --context=Default --stat_port=3835 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:38:23.739
+!MESSAGE 2021-04-13 15:38:23,738 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:38:23.899
+!MESSAGE 2021-04-13 15:38:23,898 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:38:24.114
+!MESSAGE 2021-04-13 15:38:24,114 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:38:24.117
+!MESSAGE 2021-04-13 15:38:24,115 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:38:24.122
+!MESSAGE 2021-04-13 15:38:24,120 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:38:24.123
+!MESSAGE 2021-04-13 15:38:24,123 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:38:24.310
+!MESSAGE 2021-04-13 15:38:24,310 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:38:24.586
+!MESSAGE 2021-04-13 15:38:24,585 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:38:24.752
+!MESSAGE 2021-04-13 15:38:24,751 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/SEND_EMAIL/poms/jobs/process/tsendemail_0.1/target/classpath.jar; send_email.tsendemail_0_1.tSendEmail --context=Default --stat_port=3710 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:45.544
+!MESSAGE 2021-04-13 15:39:45,543 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:45.716
+!MESSAGE 2021-04-13 15:39:45,716 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:46.007
+!MESSAGE 2021-04-13 15:39:46,006 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:46.020
+!MESSAGE 2021-04-13 15:39:46,019 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:46.028
+!MESSAGE 2021-04-13 15:39:46,028 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:46.029
+!MESSAGE 2021-04-13 15:39:46,029 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:46.164
+!MESSAGE 2021-04-13 15:39:46,164 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:46.364
+!MESSAGE 2021-04-13 15:39:46,363 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:55.968
+!MESSAGE 2021-04-13 15:39:55,967 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:56.149
+!MESSAGE 2021-04-13 15:39:56,148 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:56.320
+!MESSAGE 2021-04-13 15:39:56,319 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:56.321
+!MESSAGE 2021-04-13 15:39:56,320 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:56.324
+!MESSAGE 2021-04-13 15:39:56,324 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:56.326
+!MESSAGE 2021-04-13 15:39:56,325 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEND_EMAIL_TSENDEMAIL_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:56.437
+!MESSAGE 2021-04-13 15:39:56,435 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:56.800
+!MESSAGE 2021-04-13 15:39:56,799 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/SEND_EMAIL_ROUTINES: org.example.send_email.code:routines:7.3.1 with classifier  to /SEND_EMAIL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-04-13 15:39:57.001
+!MESSAGE 2021-04-13 15:39:57,000 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_281/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/tjorg/Desktop/TALEND ESB/Studio/configuration/studio.keys -cp C:/Users/tjorg/Desktop/TALEND_GIT/TALEND/SEND_EMAIL/poms/jobs/process/tsendemail_0.1/target/classpath.jar; send_email.tsendemail_0_1.tSendEmail --context=Default --stat_port=3455 %*
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-04-13 15:41:01.476
+!MESSAGE The workspace will exit with unsaved changes in this session.
