@@ -55,7 +55,7 @@
             <children xsi:type="basic:PartSashContainer" xmi:id="_gDR_6ZYmEeuPk8t6h1tjiQ" containerData="8564" selectedElement="_gDR_6pYmEeuPk8t6h1tjiQ" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="_gDR_6pYmEeuPk8t6h1tjiQ" containerData="8000" selectedElement="_gDR_7JYmEeuPk8t6h1tjiQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_gDR_65YmEeuPk8t6h1tjiQ" elementId="org.eclipse.ui.editorss" containerData="6521" ref="_gBhsYJYmEeuPk8t6h1tjiQ"/>
-                <children xsi:type="basic:PartStack" xmi:id="_gDR_7JYmEeuPk8t6h1tjiQ" elementId="bottomLayout" containerData="3479" selectedElement="_gDR_8JYmEeuPk8t6h1tjiQ">
+                <children xsi:type="basic:PartStack" xmi:id="_gDR_7JYmEeuPk8t6h1tjiQ" elementId="bottomLayout" containerData="3479" selectedElement="_gDR_75YmEeuPk8t6h1tjiQ">
                   <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_gDR_7ZYmEeuPk8t6h1tjiQ" elementId="org.talend.designer.core.ui.views.jobsettings.JobSettingsView" ref="_gDCIQJYmEeuPk8t6h1tjiQ" closeable="true">
                     <tags>View</tags>
@@ -213,11 +213,13 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Talend</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_0msZkJYmEeuPk8t6h1tjiQ" elementId="org.talend.designer.core.ui.views.properties.ComponentSettingsView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_0msZkZYmEeuPk8t6h1tjiQ" elementId="org.talend.designer.core.ui.views.properties.ComponentSettingsView" visible="false"/>
+      <toolbar xmi:id="_0msZkZYmEeuPk8t6h1tjiQ" elementId="org.talend.designer.core.ui.views.properties.ComponentSettingsView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_gDEkgJYmEeuPk8t6h1tjiQ" elementId="org.talend.designer.runprocess.ui.views.processview" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Run job" iconURI="platform:/plugin/org.talend.designer.runprocess/icons/process_view.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.talend.designer.runprocess.ui.views.ProcessView"/>
@@ -225,13 +227,11 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Talend</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_0WzjcJYmEeuPk8t6h1tjiQ" elementId="org.talend.designer.runprocess.ui.views.processview">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_0WzjcZYmEeuPk8t6h1tjiQ" elementId="org.talend.designer.runprocess.ui.views.processview"/>
+      <toolbar xmi:id="_0WzjcZYmEeuPk8t6h1tjiQ" elementId="org.talend.designer.runprocess.ui.views.processview" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_gDFLkJYmEeuPk8t6h1tjiQ" elementId="org.talend.camel.designer.spring.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Spring" iconURI="platform:/plugin/org.talend.camel.designer/icons/resource.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.talend.camel.designer.ui.view.SpringConfigurationView"/>
@@ -2325,7 +2325,7 @@
   <addons xmi:id="_efKh05YmEeuPk8t6h1tjiQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_efKh1JYmEeuPk8t6h1tjiQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_efw-sJYmEeuPk8t6h1tjiQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_g67MsJyAEeuSHMtaM3kLQQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_egc7MJYmEeuPk8t6h1tjiQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_egc7MZYmEeuPk8t6h1tjiQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
